@@ -21,7 +21,7 @@ pip install -r requirements.txt
 2) Create a .env file in the project root (same folder as main.py)
 DB_HOST=127.0.0.1
 DB_USER=root
-DB_PASSWORD=your_password
+DB_PASSWORD=root_password
 DB_NAME=task_manager
 DB_PORT=3306
 
