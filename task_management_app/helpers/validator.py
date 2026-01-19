@@ -4,13 +4,14 @@
 
 from datetime import datetime
 
+# ALLOWABLE VALUES FOR PRIORITIES AND STATUSES
 ALLOWED_PRIORITIES = {"Low", "Medium", "High"}
 ALLOWED_STATUSES = {"Pending", "In progress", "Completed"}
 
 
 def clean_text(value):
     """
-    cleans string input.
+    cleans string input first.
     """
     if not value:
         return None
